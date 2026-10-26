@@ -29,11 +29,13 @@ Inspirado no funcionamento interno do recurso *Secret Screen* (`Fn + F10` dos no
 
 ### 🛠️ Como Compilar do Código-Fonte (Sem instalar nada)
 
-Todo Windows 10 e 11 já possui o compilador oficial de C# (`csc.exe`) instalado nativamente. Para recompilar o `AntiPeek.exe` após editar o `AntiPeek.cs`, abra o PowerShell na pasta do projeto e execute:
+Todo Windows 10 e 11 já possui o compilador oficial de C# (`csc.exe`) instalado nativamente. Para recompilar o `AntiPeek.exe` após editar o `AntiPeek.cs`, execute no **CMD** (ou dê dois cliques no arquivo):
 
-```powershell
-.\build.ps1
+```bat
+build.bat
 ```
+
+*(Ou no **PowerShell**: `powershell -ExecutionPolicy Bypass -File .\build.ps1`)*
 
 ### 🐧 Dica Equivalente para Linux (Debian / Ubuntu)
 
@@ -76,11 +78,13 @@ Inspired by the internal mechanics of Samsung's *Secret Screen* (`Fn + F10`) fea
 
 ### 🛠️ Building from Source (No extra tools required)
 
-Every Windows 10 and 11 installation includes Microsoft's native C# compiler (`csc.exe`). To rebuild `AntiPeek.exe` after editing `AntiPeek.cs`, open PowerShell in the project folder and run:
+Every Windows 10 and 11 installation includes Microsoft's native C# compiler (`csc.exe`). To rebuild `AntiPeek.exe` after editing `AntiPeek.cs`, run in **CMD** (or double-click the file):
 
-```powershell
-.\build.ps1
+```bat
+build.bat
 ```
+
+*(Or in **PowerShell**: `powershell -ExecutionPolicy Bypass -File .\build.ps1`)*
 
 ### 🐧 Linux Equivalent (Debian / Ubuntu)
 
