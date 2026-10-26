@@ -85,7 +85,7 @@ namespace AntiPeek
         };
 
         // Opacidade padrão: 45 (~18% de visibilidade, equivalente ao nível padrão do SecretScreen)
-        private byte _targetAlpha = 45;
+        private byte _targetAlpha = 76;
         private ToolStripMenuItem _startupMenuItem;
         private readonly List<ToolStripMenuItem> _opacityMenuItems = new List<ToolStripMenuItem>();
         private Icon _generatedIcon;
@@ -133,10 +133,10 @@ namespace AntiPeek
 
             // Submenu de Nível de Opacidade
             ToolStripMenuItem opacityMenu = new ToolStripMenuItem("Nível de Opacidade");
-            AddOpacityOption(opacityMenu, "10% (Quase invisível)", 26);
-            AddOpacityOption(opacityMenu, "18% (Padrão)", 45);
-            AddOpacityOption(opacityMenu, "30% (Suave)", 76);
-            AddOpacityOption(opacityMenu, "50% (Médio)", 128);
+            AddOpacityOption(opacityMenu, "10%", 26);
+            AddOpacityOption(opacityMenu, "18%", 45);
+            AddOpacityOption(opacityMenu, "30%", 76);
+            AddOpacityOption(opacityMenu, "50%", 128);
             menu.Items.Add(opacityMenu);
 
             ToolStripMenuItem restoreAllItem = new ToolStripMenuItem("Restaurar Todas as Janelas", null, (s, e) => RestoreAllWindows());
