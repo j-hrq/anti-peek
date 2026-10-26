@@ -1,0 +1,12 @@
+# Ignora arquivos temporários e de sistema
+*.pdb
+*.log
+*.tmp
+*.user
+*.suo
+.vs/
+Thumbs.db
+Desktop.ini
+
+# Permite versionar o executável portátil diretamente no repositório
+!AntiPeek.exe
